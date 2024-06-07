@@ -10,7 +10,7 @@ public class Main {
     System.out.println("Logs from your program will appear here!");
 
     // Uncomment this block to pass the first stage
-    // Another test comment
+    // Another test 
      try(DatagramSocket serverSocket = new DatagramSocket(2053)) {
        while(true) {
          final byte[] buf = new byte[512];
